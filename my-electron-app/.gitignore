@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build / packaging output
+dist/
+out/
+release/
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.snap
+*.yml
+!package.yml
+
+# Electron / Forge / Builder
+.webpack/
+.vite/
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Test / coverage
+coverage/
+.nyc_output/
